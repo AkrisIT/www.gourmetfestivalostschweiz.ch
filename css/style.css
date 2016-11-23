@@ -1,0 +1,36 @@
+@charset "utf-8";
+@media screen {
+  body {
+    font-size: 16px;
+  }
+
+}
+
+@media screen and (max-device-width: 480px) {
+  body {
+    font-size: 8px;
+  }
+}
+
+
+img{
+  max-width: 50%;
+  max-height: 800px;
+  min-width: 300px;
+  min-height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+a, a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+footer {
+  font-family: 'open sans', Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-bottom: 3em;
+}
